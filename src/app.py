@@ -4,10 +4,8 @@ st.title("¡Hola mundo!")
 
 st.write("Esta es una aplicación de prueba de Streamlit.")
 
-# # Add a text input
-# name = st.text_input("Enter your name:")
+nombre = st.text_input("Dime tu nombre:")
 
-# # Display the entered name
-# if name:
-#     st.write("Hello, {0}!".format(name))
+if nombre:
+    st.write("¡Hola ", nombre, "!")
 
